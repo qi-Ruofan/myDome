@@ -1,0 +1,77 @@
+.wrap {
+  width: 278px;
+  height: 325px;
+  margin: 100px auto;
+  border-left: 27px solid #31295c;
+  border-right: 27px solid #31295c;
+  border-top: 34px solid #31295c;
+  border-bottom: 34px solid #31295c;
+  background: #0779ec;
+}
+
+.wrap .m-top {
+  position: relative;
+  width: 278px;
+  height: 208px;
+}
+
+.m-top .content {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 169px;
+  height: 74px;
+}
+
+.content .c-l {
+  width: 99px;
+  height: 69px;
+  font-size: 68px;
+  color: #fff;
+}
+
+.content .c-r {
+  width: 70px;
+  height: 69px;
+  display: inline-block;
+  text-align: center;
+}
+
+.content .c-r img {
+  width: 50px;
+  height: 43px;
+}
+
+.content .c-r .city {
+  font-size: 16px;
+  color: #fff;
+}
+
+.wrap .m-bottom {
+  width: 278px;
+  height: 118px;
+}
+
+.wrap .m-bottom .list {
+  width: 100%;
+  height: 39px;
+  background: #0664d6 url(../images/cloud.png) no-repeat 228px center;
+  background-size: 24px 24px;
+}
+
+.wrap .m-bottom .list+.list {
+  border-top: 1px solid #0caff0;
+
+}
+
+.wrap .m-bottom .list:nth-child(1) {
+  border-bottom: 1px solid #0f2595;
+  background: #0664d6 url(../images/sunny.png) no-repeat 228px center;
+  background-size: 24px 24px;
+}
+
+.wrap .m-bottom .list:nth-child(2) {
+  border-bottom: 1px solid #0f2595;
+}
+

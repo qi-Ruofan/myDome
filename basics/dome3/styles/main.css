@@ -1,0 +1,77 @@
+.icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: #6bcdf2;
+  overflow: hidden;
+}
+
+.wrap {
+  width: 317px;
+  height: 235px;
+  margin: 100px auto;
+  background: #181c1f;
+}
+
+.slt {
+  width: 274px;
+  height: 203px;
+  margin: 0 auto;
+  padding-top: 15px;
+}
+
+.slt-h {
+  width: 270px;
+  height: 40px;
+  border: 2px solid #6bcdf2;
+}
+
+.slt-h .slt-h-l,
+.slt-h .slt-h-r {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  float: left;
+  text-align: center;
+}
+
+.slt-h .slt-h-r {
+  float: right;
+}
+
+.slt-h-r .cur {
+  width: 0;
+  height: 0;
+  border-top: 7px solid #6bcdf2;
+  border-bottom: 7px solid transparent;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  display: inline-block;
+  vertical-align: text-bottom;
+}
+
+.slt-b {
+  width: 270px;
+  height: 0;
+  border: 2px solid #6bcdf2;
+  border-top: none;
+  border-bottom: none;
+  overflow: hidden;
+  transition: height 0.2s linear;
+}
+
+.slt-b .list {
+  width: 100%;
+  height: 37px;
+  line-height: 37px;
+  padding-left: 13px;
+  box-sizing: border-box;
+}
+
+.slt-b .list:hover {
+  background-color: #6bcdf2;
+}
+
+.slt-b .list:hover .icon {
+  fill: #fff;
+}
